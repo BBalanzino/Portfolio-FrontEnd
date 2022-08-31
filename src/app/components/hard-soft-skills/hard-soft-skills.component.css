@@ -1,0 +1,9 @@
+.container-skills{
+    width: 100%;
+}
+@media (min-width: 180px){
+    .bars{
+        width: 50%;
+        margin: 10px;
+    }
+}
