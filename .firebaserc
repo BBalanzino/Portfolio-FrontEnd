@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "argentinaprogramabbalanzino"
+  },
+  "targets": {
+    "argentinaprogramabbalanzino": {
+      "hosting": {
+        "portfolio": [
+          "argentinaprogramabbalanzino"
+        ]
+      }
+    }
+  }
+}

@@ -100,11 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "portfolio:build:production",
+            "firebaseProject": "argentinaprogramabbalanzino",
+            "firebaseHostingSite": "argentinaprogramabbalanzino"
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "3280d0bc-b762-4986-a33b-848daf6f5ee8"
+    "analytics": false
   }
 }
